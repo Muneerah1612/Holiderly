@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+header {
+    background-color: #da00ff;
+    width:80%;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    padding: 3em;
+    margin: 0 auto;
+}
+nav {
+     float: right;
+     
+     
+}
+
+h3 {
+    float:left;
+    
+}
+.display {
+    background-color: white;
+    color:#F50AAD;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 3px;
+    padding: 3em;
+}
+.check-GoTo {
+    
+    background-color: #e01fc0;
+    padding: 3em;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+.new-user,.old-user {
+    width: 70%;
+    text-align: left;
+
+}
+p {
+    font-weight: bold;
+    font-style: 20px;
+
+}
+form {
+    border-radius: 15px;
+    border-color: #F50AAD;
+    font-size: 20px;
+    padding: 2em;
+}
+.check-GoTo input {
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    
+    text-align: center;
+    color: black;
+}
+input:hover {
+    background-color: white;
+    color: #da00ff;
+}
+button:hover {
+    background-color: #F50AAD;
+    color: white;
+    border-radius: 4px;
+}
+.About {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
