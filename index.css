@@ -1,82 +1,66 @@
 body {
     margin: 0 auto;
-    
-}
-li {
-    list-style-type: none;
-    display: inline-block;
+    cursor: pointer;
     
 }
 header {
-    background-color: #da00ff;
-    width:80%;
-    font-weight: bold;
-    font-size: 15px;
-    color:white;
-    padding: 3em;
-    margin: 0 auto;
-}
-nav {
-     float: right;
-     
-     
-}
-
-h3 {
-    float:left;
-    
-}
-.display {
-    background-color: white;
-    color:#F50AAD;
+    background-image: url("https://img.freepik.com/free-photo/colleagues-celebrating-christmas-party-office-smiling-giving-presents_176420-7733.jpg?size=626&ext=jpg&ga=GA1.2.1504201937.1593820800");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 3px;
-    padding: 3em;
-}
-.check-GoTo {
+    height: 450px;
+    line-height: 35px;
+    width: 100%;
     
-    background-color: #e01fc0;
-    padding: 3em;
-    margin: 0 auto;
-    border-radius: 18px;
 }
-.new-user,.old-user {
-    width: 70%;
-    text-align: left;
-
+body {
+    font-family: "Montserrat";
+    margin: 0 auto;
+    background-color: #FFA781;
+    color:#5B0E2D;
+}
+h1 {
+    letter-spacing: 4px;
+    padding-top: 15px;
 }
 p {
-    font-weight: bold;
-    font-style: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.text {
+    text-align: center;
+    padding-top: 20px;
+}
 
+
+.Go input {
+    text-align: center;
+    border-radius: 5px;
+    height:30px;
+    width: 60%;
+    
+    
 }
 form {
-    border-radius: 15px;
-    border-color: #F50AAD;
-    font-size: 20px;
-    padding: 2em;
-}
-.check-GoTo input {
-    border-radius: 5px;
-    width: 60%;
-    height: 40px;
-    
-    text-align: center;
-    color: black;
-}
-input:hover {
-    background-color: white;
-    color: #da00ff;
+    padding-left: 20px;
 }
 button:hover {
-    background-color: #F50AAD;
-    color: white;
-    border-radius: 4px;
+    border-radius: 3px;
+    background-color: #FFA781;
+    color: black;
 }
+button {
+    border-radius: 5px;
+    background-color: #5E001F;
+    color: beige;
+}
+.Go {
+    background-color: #fff;
+}
+/* START FROM HERE TOMORROW */
 .About {
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    
 }
