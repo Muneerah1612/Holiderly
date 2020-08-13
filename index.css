@@ -17,9 +17,10 @@ header {
 body {
     font-family: "Montserrat";
     margin: 0 auto;
-    background-color: #FFA781;
+    background-color: transparent;
     color:#5B0E2D;
 }
+/*
 h1 {
     letter-spacing: 4px;
     padding-top: 15px;
@@ -39,12 +40,16 @@ p {
     border-radius: 5px;
     height:30px;
     width: 60%;
+    top: 50px;
     
     
-}
-form {
+} */
+/*form {
     padding-left: 20px;
+    
+    
 }
+
 button:hover {
     border-radius: 3px;
     background-color: #FFA781;
@@ -54,13 +59,23 @@ button {
     border-radius: 5px;
     background-color: #5E001F;
     color: beige;
-}
+} */
 .Go {
-    background-color: #fff;
+    
+    background-image: linear-gradient(-90deg,#30110D,#F2BC94,#722620);
+       
 }
+
+
 /* START FROM HERE TOMORROW */
 .About {
     text-align: center;
     font-weight: bold;
+    background-color: #fff;
+    font-size: 18px;
     
+}
+.About h4 {
+    text-align: center;
+    text-shadow: #FFA781;
 }
