@@ -63,7 +63,16 @@ button {
 .Go {
     
     background-image: linear-gradient(-90deg,#30110D,#F2BC94,#722620);
-       
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    
+     box-sizing: border-box;
+    
+    height: 200px;
+    background-position: center;
+    
 }
 
 
@@ -74,8 +83,23 @@ button {
     background-color: #fff;
     font-size: 18px;
     
+    
 }
 .About h4 {
     text-align: center;
     text-shadow: #FFA781;
+}
+ .text {
+     top: 10%;
+     left: 5%;
+     position: absolute;
+ }
+ .news {
+     display: inline-block;
+     padding-left: 20px;
+     
+ }
+.contact p, footer p {
+    text-align: center;
+    font-weight: bold;
 }
