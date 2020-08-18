@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check National Holidays</title>
+    <link rel = 'stylesheet' href='api.css' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src='api.js' async></script>
+</head>
+<body>
+    <header>
+      <div class="container">
+          <img src="https://images.unsplash.com/photo-1468234847176-28606331216a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="holi" style='width:100%;'>
+          <h1 class='name'>HOLIDERLY</h1>
+      </div>
+    </header>
+    <div class ="start">
+    <h3>Ready to search for holidays?</h3>
+    <p>Let's go</p>
+    </div>
+    <div class= "form">
+    <form id="form">
+        <label>COUNTRY (use ISO code,e.g: Singapore = SG)</label><br>
+        
+        <input type="text" placeholder="enter country" id='country' value="US" required><br>
+        
+        <label>MONTH (use numbers,e.g: December=12)</label> <br>
+        <input type="number"  id="month" placeholder="enter month" value="12" required> <br>
+        
+        <label>DAY OF THE MONTH</label> <br>
+        <input type="number" placeholder="enter day" id="day" value="25" required> <br>
+        
+        <button id ="sub">SEND</button>
+
+    </form>
+    <div id="text"></div>
+</div>
+<footer>
+    
+        <div class="contact">
+           <h3> To get information on national holidays of your desired country</h3>
+           <form action="#" method="POST" class="news">
+               <legend>Subscribe to our newsletter</legend>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email Address" required>
+            <button>Send</button>
+        </form>
+        </div>
+        <div class="copy">
+            <p >&copy; copyright@muniratolayiwola</p>
+            </div>
+        
+    
+</footer>
+
+    
+</body>
+</html>
