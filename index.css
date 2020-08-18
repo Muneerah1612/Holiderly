@@ -70,7 +70,7 @@ button {
     
      box-sizing: border-box;
     
-    height: 200px;
+    height: 300px;
     background-position: center;
     
 }
@@ -95,6 +95,8 @@ button {
      position: absolute;
      transform: translate(-50%,-50%);
  }
+     
+
  .news {
      display: inline-block;
      padding-left: 20px;
