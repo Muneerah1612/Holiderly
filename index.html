@@ -6,6 +6,7 @@
     <title>Holiderly</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="script.js" async></script>
 </head>
 <body>
    <header>
@@ -38,10 +39,10 @@
         <div class="text">
             <h2>A little break is needed, let everyone enjoy theirs irrespective of their location. </h2>
         
-        <form action="#" method="post">
+        <form name="form" onsubmit="return send()">
             <legend>Search For National Holidays?</legend> 
-            <input type="name" class="send" placeholder="...Enter Your Name..." required>
-            <button onclick="document.location='api.html'" >GO</button>
+            <input type="name" class="send" placeholder="...Enter Your Name..." required id='name'>
+            <button><a href='api.html'>GO</a></button>
         </form>
         </div>
     </div>

@@ -2,3 +2,11 @@
   API implementation
 
   */
+ function send() {
+  
+   let name= document.getElementById('name').value;
+   alert(`Hello,${name}`);
+   
+   return true;
+   
+ }

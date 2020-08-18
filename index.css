@@ -90,9 +90,10 @@ button {
     text-shadow: #FFA781;
 }
  .text {
-     top: 5%;
-     left: 5%;
+     top: 50%;
+     left: 50%;
      position: absolute;
+     transform: translate(-50%,-50%);
  }
  .news {
      display: inline-block;
@@ -102,4 +103,7 @@ button {
 .contact p, footer p {
     text-align: center;
     font-weight: bold;
+}
+.text a {
+    text-decoration: none;
 }
