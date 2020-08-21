@@ -4,7 +4,7 @@ body {
     
 }
 header {
-    background-image: url("https://img.freepik.com/free-photo/colleagues-celebrating-christmas-party-office-smiling-giving-presents_176420-7733.jpg?size=626&ext=jpg&ga=GA1.2.1504201937.1593820800");
+    background-image: url('/calend.png');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -12,13 +12,14 @@ header {
     height: 450px;
     line-height: 35px;
     width: 100%;
+    background-color: #2a5fd5;
     
 }
 body {
     font-family: "Montserrat";
     margin: 0 auto;
     background-color: transparent;
-    color:#5B0E2D;
+    color:#2a5fd5;
 }
 /*
 h1 {
@@ -62,7 +63,7 @@ button {
 } */
 .Go {
     
-    background-image: linear-gradient(-90deg,#30110D,#F2BC94,#722620);
+    background-image: linear-gradient(-90deg,#2a5fd5,#2ab5d5,#2ad5a0);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -108,4 +109,23 @@ button {
 }
 .text a {
     text-decoration: none;
+}
+input {
+    border-radius: 5px;
+    width: max-content;
+}
+button {
+    border-radius: 6px;
+    
+    background-color:#2ab5d5; 
+}
+button:hover {
+    border-radius: 8px;
+    opacity: 0.5;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+#name:hover {
+    border-radius: 8px;
+    width: 200px;
 }

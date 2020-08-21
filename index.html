@@ -39,10 +39,10 @@
         <div class="text">
             <h2>A little break is needed, let everyone enjoy theirs irrespective of their location. </h2>
         
-        <form name="form" >
+        <form name="form" action='api.html' >
             <legend>Search For National Holidays?</legend> 
             <input type="name" class="send" placeholder="...Enter Your Name..."  id='name'>
-            <button><a href='api.html'>GO</a></button>
+            <button onclick="getData()"> GO </button>
         </form>
         </div>
     </div>
@@ -50,11 +50,11 @@
     <footer>
         <div class="contact">
            <p> To get information on national holidays of your desired country</p>
-           <form action="#" method="POST" class="news">
+           <form action="sub.html"  class="news">
                <legend>Subscribe to our newsletter</legend>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email Address" required>
-            <button>Send</button>
+            <input type="text" placeholder="Name" id='sub-name' >
+            <input type="email" placeholder="Email Address" required id='email'>
+            <button onclick="getName()">Subscribe</button>
         </form>
         </div>
         <p>&copy; copyright@muniratolayiwola</p>

@@ -19,16 +19,16 @@ body {
       color: #2ab5d5;
       letter-spacing: 3px;
       animation-name: example;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   
   
   }
   @keyframes example {
-    from {color: #2ab5d5;}
-    to {color: #e2e200;}
-    to {color:#ffb3c0;}
-    to{color:#00A800;}
+    0%{color: #2ab5d5;}
+    25% {color: #e2e200;}
+    75% {color:#ffb3c0;}
+    100% {color:#00A800;} 
   }
   .start  {
         text-align: center;
@@ -49,11 +49,8 @@ body {
 }
 form
 {
-    padding-left: 85px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    padding-top: 25px;
+    text-align: center;
+    
 }
 
 input {
@@ -67,14 +64,16 @@ input {
      
  }
   button:hover {
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: #2a5fd5;
     color: white;
   }
   button {
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #2ab5d5;
-    color: beige;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 8px;
 }
 
 .contact {

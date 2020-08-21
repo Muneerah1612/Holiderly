@@ -16,8 +16,9 @@
       </div>
     </header>
     <div class ="start">
+    <h2>Hello <span id='name'></span>,&#128512</h2>
     <h3>Ready to search for holidays?</h3>
-    <p>Let's go</p>
+    <p>Let's go </p>
     </div>
     <div class= "form">
     <form id="form">
@@ -40,11 +41,11 @@
     
         <div class="contact">
            <h3> To get information on national holidays of your desired country</h3>
-           <form action="#" method="POST" class="news">
+           <form action="sub.html" >
                <legend>Subscribe to our newsletter</legend>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email Address" required>
-            <button>Send</button>
+            <input type="text" placeholder="Name" id='sub-name'>
+            <input type="email" placeholder="Email Address" required id='email'>
+            <button onclick="getName()">Send</button>
         </form>
         </div>
         <div class="copy">
